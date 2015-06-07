@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBBF4FA51B2353A2009C0D03 /* DetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF4FA41B2353A2009C0D03 /* DetailsController.m */; };
+		DBBF4FAE1B2425B7009C0D03 /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF4FAD1B2425B7009C0D03 /* Animator.m */; };
+		DBBF4FB71B242769009C0D03 /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF4FB61B242769009C0D03 /* NavigationControllerDelegate.m */; };
 		DBCA9E351B22174B0091A0A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCA9E341B22174B0091A0A6 /* main.m */; };
 		DBCA9E381B22174B0091A0A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCA9E371B22174B0091A0A6 /* AppDelegate.m */; };
 		DBCA9E3B1B22174B0091A0A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCA9E3A1B22174B0091A0A6 /* ViewController.m */; };
@@ -14,6 +17,7 @@
 		DBCA9E401B22174B0091A0A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCA9E3F1B22174B0091A0A6 /* Images.xcassets */; };
 		DBCA9E431B22174B0091A0A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBCA9E411B22174B0091A0A6 /* LaunchScreen.xib */; };
 		DBCA9E4F1B22174B0091A0A6 /* testMonsoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCA9E4E1B22174B0091A0A6 /* testMonsoonTests.m */; };
+		DBCA9E5A1B2223B00091A0A6 /* CustomControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCA9E591B2223B00091A0A6 /* CustomControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DBBF4FA31B2353A2009C0D03 /* DetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsController.h; sourceTree = "<group>"; };
+		DBBF4FA41B2353A2009C0D03 /* DetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsController.m; sourceTree = "<group>"; };
+		DBBF4FAC1B2425B7009C0D03 /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		DBBF4FAD1B2425B7009C0D03 /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		DBBF4FB51B242769009C0D03 /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		DBBF4FB61B242769009C0D03 /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
 		DBCA9E2F1B22174B0091A0A6 /* testMonsoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMonsoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCA9E331B22174B0091A0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBCA9E341B22174B0091A0A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,8 @@
 		DBCA9E481B22174B0091A0A6 /* testMonsoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMonsoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCA9E4D1B22174B0091A0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBCA9E4E1B22174B0091A0A6 /* testMonsoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMonsoonTests.m; sourceTree = "<group>"; };
+		DBCA9E581B2223B00091A0A6 /* CustomControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomControl.h; sourceTree = "<group>"; };
+		DBCA9E591B2223B00091A0A6 /* CustomControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				DBCA9E3F1B22174B0091A0A6 /* Images.xcassets */,
 				DBCA9E411B22174B0091A0A6 /* LaunchScreen.xib */,
 				DBCA9E321B22174B0091A0A6 /* Supporting Files */,
+				DBCA9E581B2223B00091A0A6 /* CustomControl.h */,
+				DBCA9E591B2223B00091A0A6 /* CustomControl.m */,
+				DBBF4FA31B2353A2009C0D03 /* DetailsController.h */,
+				DBBF4FA41B2353A2009C0D03 /* DetailsController.m */,
+				DBBF4FAC1B2425B7009C0D03 /* Animator.h */,
+				DBBF4FAD1B2425B7009C0D03 /* Animator.m */,
+				DBBF4FB51B242769009C0D03 /* NavigationControllerDelegate.h */,
+				DBBF4FB61B242769009C0D03 /* NavigationControllerDelegate.m */,
 			);
 			path = testMonsoon;
 			sourceTree = "<group>";
@@ -221,7 +241,11 @@
 			files = (
 				DBCA9E3B1B22174B0091A0A6 /* ViewController.m in Sources */,
 				DBCA9E381B22174B0091A0A6 /* AppDelegate.m in Sources */,
+				DBBF4FAE1B2425B7009C0D03 /* Animator.m in Sources */,
+				DBCA9E5A1B2223B00091A0A6 /* CustomControl.m in Sources */,
 				DBCA9E351B22174B0091A0A6 /* main.m in Sources */,
+				DBBF4FA51B2353A2009C0D03 /* DetailsController.m in Sources */,
+				DBBF4FB71B242769009C0D03 /* NavigationControllerDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testMonsoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testMonsoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +438,7 @@
 				DBCA9E541B22174B0091A0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBCA9E551B22174B0091A0A6 /* Build configuration list for PBXNativeTarget "testMonsoonTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +447,7 @@
 				DBCA9E571B22174B0091A0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
